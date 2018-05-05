@@ -1,9 +1,13 @@
+/*
+ * First and Last Names
+ */
+
+
 import java.awt.Rectangle;
 
 public class Homework1 {
 
-	/*
-	 * Tests to verify that your solutions work
+	/* Tests to verify that your solutions work
 	 * Do not submit your homework until all of these pass
 	 */
 	public static void main(String[] args) {
