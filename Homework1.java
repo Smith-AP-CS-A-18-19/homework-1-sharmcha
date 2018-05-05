@@ -7,44 +7,6 @@ import java.awt.Rectangle;
 
 public class Homework1 {
 
-	/* Tests to verify that your solutions work
-	 * Do not submit your homework until all of these pass
-	 */
-	public static void main(String[] args) {
-		int exitCode = 0;
-		if (problem1() == -3) {
-			System.out.println("Pass 1");
-		} else {
-			System.out.println("Fail 1");
-			exitCode += 1;
-		}
-		if (problem2("Hello").equals("HELLO")) {
-			System.out.println("Pass 2");
-		} else {
-			System.out.println("Fail 2");
-			exitCode += 1;
-		}
-		if (problem3("Hello, World!").equals("HelloWorld")) {
-			System.out.println("Pass 3");
-		} else {
-			System.out.println("Fail 3");
-			exitCode += 1;
-		}
-		if (problem4() != null) {
-			System.out.println("Pass 4");
-		} else {
-			System.out.println("Fail 4");
-			exitCode += 1;
-		}
-		if (problem5(new Rectangle(5, 10, 20, 30)) == 100) {
-			System.out.println("Pass 5");
-		} else {
-			System.out.println("Fail 5");
-			exitCode += 1;
-		}
-		System.exit(exitCode);
-	}
-
 	/* Fix the error in this method so that it runs properly
 	 */
 	public static int problem1() {
