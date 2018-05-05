@@ -1,7 +1,8 @@
 public class Homework1Tests {
 
 	/* Tests to verify that your solutions work
-	 * Do not submit your homework until all of these pass
+	 * Do not submit your homework until this compiles and the words
+	 * "All Pass" are printed
 	 */
 	public static void main(String[] args) {
 		int exitCode = 0;
