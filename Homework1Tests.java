@@ -38,6 +38,8 @@ public class Homework1Tests {
 		}
 		if (exitCode == 0) {
 			System.out.println("All Pass");
+		} else {
+			System.out.println("Fail");
 		}
 		System.exit(exitCode);
 	}
