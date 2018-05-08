@@ -2,7 +2,6 @@
  * First and Last Names
  */
 
-
 import java.awt.Rectangle;
 
 public class Homework1 {
