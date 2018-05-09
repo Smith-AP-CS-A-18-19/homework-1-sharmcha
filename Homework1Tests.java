@@ -31,15 +31,14 @@ public class Homework1Tests {
 			exitCode += 1;
 		}
 
-		
-
 		if (Homework1.problem4() != null) {
 			System.out.println("Pass 4");
 		} else {
 			System.out.println("Fail 4");
 			exitCode += 1;
 		}
-		if (Homework1.problem5(new Rectangle(5, 10, 20, 30)) == 100) {
+
+		if (Homework1.problem5(7) == 12) {
 			System.out.println("Pass 5");
 		} else {
 			System.out.println("Fail 5");

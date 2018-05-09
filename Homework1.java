@@ -34,6 +34,10 @@ public class Homework1 {
 
 	}
 
-	
+	/* Add 5 to num and return the new value
+	 */
+	public static int problem5(int num) {
+
+	}
 
 }
