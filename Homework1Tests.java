@@ -1,3 +1,5 @@
+import java.awt.Rectangle;
+
 public class Homework1Tests {
 
 	/* Tests to verify that your solutions work
@@ -6,24 +8,31 @@ public class Homework1Tests {
 	 */
 	public static void main(String[] args) {
 		int exitCode = 0;
+
 		if (Homework1.problem1() == -3) {
 			System.out.println("Pass 1");
 		} else {
 			System.out.println("Fail 1");
 			exitCode += 1;
 		}
-		if (Homework1.problem2("Hello").equals("HELLO")) {
+
+		Rectangle r = Homework1.problem2(100, 50);
+		if (r.getWidth() == 100 && r.getHeight() == 50) {
 			System.out.println("Pass 2");
 		} else {
 			System.out.println("Fail 2");
 			exitCode += 1;
 		}
-		if (Homework1.problem3("Hello, World!").equals("HelloWorld")) {
+
+		if (Homework1.problem3() == 5) {
 			System.out.println("Pass 3");
 		} else {
 			System.out.println("Fail 3");
 			exitCode += 1;
 		}
+
+		
+
 		if (Homework1.problem4() != null) {
 			System.out.println("Pass 4");
 		} else {
